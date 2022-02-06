@@ -1,0 +1,8 @@
+To train models that I configured,
+it is enough to run python executable "trains.py"
+it will outputs in the text file "accuracies.txt"
+it will calculate validation and test accuracy right after the training halts
+
+For sanity check with untrained ANN,
+it is enough to run python executable "sanity.py"
+it will put outputs in stdout

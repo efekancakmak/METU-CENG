@@ -1,0 +1,34 @@
+KNN
+
+knn.py is simply implementation of KNN algorithm and its components.
+knn_test.py is used to save average accuracy results by using functions from knn.py.
+knn_plot.py is used to plot 10-Fold CV results that are saved by knn_test.py.
+And after showing accuracy plot, it get input for best K, then prints test accuracy with this K.
+
+You need to first run knn_test.py, then run knn_plot.py.
+knn_plot.py will want you to enter input,for the best k, after closing accuracy plots.
+After inputting, it will print test accuracy.
+
+KMEANS
+
+kmeans.py is simply implementation of kmeans algorithm and its components.
+kmeans_test.py is used to save resulted clusters and objective function results.
+kmeans_plot.py is used to plot resulted clusters.
+You need to first run kmeans_test.py, then run kmeans_plot.py.
+when running kmeans_plot,
+For each dataset:
+    it plots K and corresponding objection function result.
+    Then it wants you to input the best K by using elbow method.
+    After entering K, it will plot clusters view with this K.
+
+HAC
+hac.py is simply implementation of hac algorithm and its components.
+hac_test.py is used to run hac algorithm and to save result of them for each configuration.
+hac_plot.py is used to plot resulted clusters.
+You need to first run hac_test.py, then run hac_plot.py.
+When hac_plot.py is running, it will plot all cluster results sequentially.
+
+
+
+GENERAL
+I saved and loaded all .npy files in outs/ directory.

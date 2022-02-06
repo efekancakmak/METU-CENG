@@ -1,0 +1,7 @@
+functions in hmm.py are implemented, they can be tested by executing hmm_simple_tester.py
+
+functions in nb.py are implemented, they can be tested by executing nb_simple_tester.py
+
+To do TASK3, I write task.py
+When executing it, it reads data from nb_data folder.
+Then, consequently, prints the accuracy on test set.
